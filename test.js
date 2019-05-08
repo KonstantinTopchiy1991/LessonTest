@@ -61,7 +61,7 @@ describe('calculate testsSum', () => {
         assert.isFalse(act);
     });
 
-    it('test first & second arg undefined', function () {
+    it('test first  &  second arg undefined', function () {
         const act = calculateSum();
 
         assert.isFalse(act);
